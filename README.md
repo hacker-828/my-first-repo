@@ -1,2 +1,6 @@
 # my-first-repo
-blue chease
+blue chease 
+i love coding 
+git hub
+git
+zoom
