@@ -34,7 +34,6 @@
 
         <article class="text-box">
              <h1> WELCOME TO ALLIANCE <br> AUTOMOBILE</h1>
-             <h1> WELCOME TO ALLIANCE <br> AUTOMOBILE</h1>
              <P>
             </P>
         </article>
