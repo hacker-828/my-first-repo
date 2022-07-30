@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALLIANCE AUTO-MOBILE</title>
+     <!-- Css Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css" media="all">
+    
+</head>
+ <body>
+    <footer class="header">
+        <nav>
+            <a href="Index.html"><img src="Img/logo.png" alt="logo not found"></a>
+            <article class="nav-link" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            </article>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <article class="text-box">
+             <h1> WELCOME TO ALLIANCE AUTOMOBILE</h1>
+             <P>ALLIANCE AUTOMOBILE IS A PLATEFORM WHERE WE PROVIDE SERVICES OF :
+             <ul>
+                 <li>CARS SALES</li>
+                 <li>RENT CARS</li>
+                 <li>CARS MAINTENNCE</li>
+                 <li>OTHERS...</li>
+             </ul>
+            </P>
+             <a href="BUY.PHP" class="hero-btn"><SPAN>*BUY CAR*</SPAN></a>
+             <a href="RENT.PHP" class="hero-btn"><SPAN>*RENT CAR*</SPAN></a>
+        </article>
+    </footer>
+
+     
+
+
+
+   <!-----JavaScript for Toggle Menu------>
+    <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+    </script>
+
+ </body>
+</html>
